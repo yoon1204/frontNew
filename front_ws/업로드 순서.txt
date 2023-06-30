@@ -1,0 +1,7 @@
+업로드 순서
+터미널에서 git bash로 들어간 뒤 시작
+1. git add .
+2.git commit -m "day1 second" //
+"파일 올릴 때 어떤 메세지와 올릴 것인지, 언제 올린건지 구분하는 
+용도, day01_first 이런 식으로 적을 것
+3. git push -u origin main

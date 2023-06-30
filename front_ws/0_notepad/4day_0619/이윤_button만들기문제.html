@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .order{
+            width: 90px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            background-color: aquamarine;
+            color:black;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .blue{
+            width: 50px;
+            height: 50px;
+            background-color: blueviolet;           
+            position: fixed;
+            margin: 5px;           
+            position: static;
+            line-height: 40px;
+            color:white;
+            text-align: center;
+        }
+
+        .violet{
+            width: 50px;
+            height: 50px;
+            background-color: violet;           
+            position: fixed;
+            margin: 5px;           
+            position: static;
+            line-height: 40px;
+            color:white;
+            text-align: center;
+        }
+
+        .violet:hover{
+            position: relative;
+            left: 10px;
+            top:20px;
+            background-color: darkblue;
+        }
+        .box{
+            width: 60px;
+            height: 60px;
+            background-color: chartreuse;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .box:hover{
+            position: relative;
+            left: 10px;
+            top:20px;
+            background-color: wheat;
+        }
+
+        .header{
+            height: 200px;
+            background-color: lightblue;
+            position: relative;
+        }
+
+            
+
+        .four{
+            width: 50px;
+            height: 50px;
+            background-color: royalblue;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color:black;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .five{
+           
+
+            width: 50px;
+            height: 50px;
+            background-color: burlywood;
+            position: absolute;
+            top: 80px;
+            right:240px;
+            color:black;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .six{
+            width: 50px;
+            height: 50px;
+            background-color: darkgreen;
+            position: absolute;
+            top:10px;
+            left:10px;
+            color:black;
+            text-align: center;
+            line-height: 40px;
+        }
+       
+        input[type=text]:active{
+           outline: 1px solid  orange;
+        }
+
+        input[type=password]:focus{
+            outline: 1px solid orange;
+        }
+    
+    </style>
+</head>
+<body>
+  
+    
+    <h2> div를 사용해서 나만의 버튼만들기 </h2>
+
+    <div class="order"> 주문 </div>
+
+    <div class="blue"> 1 </div>
+    <div class="violet"> 2 </div>
+
+
+    <div class="box">L</div>
+    <div class="box">e</div>
+    <div class="box">e</div>
+    <div class="box">Y</div>
+    <div class="box">o</div>
+    <div class="box">o</div>
+    <div class="box">n</div>
+
+    <div class="header">
+        <div class="four">4</div>
+        <div class="five">5</div>
+        <div class="six"> 6 </div>
+    </div>
+
+
+    <input type="text" placeholder="active">
+    <input type="password" placeholder="focus">
+    
+
+
+   
+    
+
+</body>
+</html>

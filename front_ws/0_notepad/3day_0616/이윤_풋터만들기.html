@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            .footer{
+                display: flex;
+                padding: 30px;
+                border: 1px dashed black;
+                height: 390px;
+                box-sizing: border-box;
+            }
+
+            .item1{
+                width: 20%;
+                border: 1px solid black;
+                height: 290px;            
+            }
+
+            .item2{
+                width: 40%;
+                border: 1px solid black;
+                height: 290px;
+                text-align: center;                
+            }
+
+            a{
+                margin-top:40px;
+                display: block;
+            } 
+
+            .table{
+                margin-left:250px;
+            }
+
+            .table, td{
+                border: 1px solid black;
+                border-collapse: collapse;           
+            }
+
+            img{
+                width: 200px;
+                height: 240px;
+                text-align: center;           
+            }
+
+            .info{
+                margin-top: 80px;
+            }
+
+        </style>
+    </head>
+    <body>
+            <div class="footer">
+                <div class="item1">
+                    <p style="text-align: center;">
+                    <img src="data:image/png;base64,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">
+                    </p>
+                </div>
+            <div class="item2">
+                서울시 영등포구 은행로 11, 5층~6층(여의도동,일신빌딩) <br>
+                대표 : 김석환, 최세라 <br>  
+                개인정보보호책임자 : 권민석 <a href="yes24help@yes24.com"></a> <br>
+                사업자등록번호 : 229-81-37000   통신판매업신고 : 제 2005-02682호 <a href="">사업자 정보확인</a> <br>
+                <strong>호스팅 서비스사업자 : 예스이십사(주)</strong> <br>
+                <mark>Copyright</mark> ⓒ YES24 Corp. All Rights Reserved.
+            </div>
+            <div class="item2">
+            <div class="info">
+                <h2><p>고객문의</p></h2> <br>
+                도서/음반 <strong>1544-3800</strong> 중고샵 <strong>1566-4295</strong> <br>
+                티켓예매 <strong>1544-6399</strong> eBook <strong>1:1 문의 </strong> <br>
+                <button>1:1 문의하기</button>
+                <button>자주 묻는 질문</button>
+                <button>상담시간 안내</button>
+            </div>
+            </div>
+    </body>
+</html>

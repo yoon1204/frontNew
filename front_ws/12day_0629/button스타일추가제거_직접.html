@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ 
+
+</head>
+<body>
+    <div  id="mybtn">버튼</div>
+    <div  id="content">내용입니다!!</div>
+    <button onclick="style1()">배경색</button>
+    <button onclick="style2()">배경이미지 </button>
+    <button onclick="style3()">이미지배경색 없애기</button>
+    <button onclick="style4()">이미지배경없애기</button>
+    <button onclick="style5()">내용바꾸기</button>
+    
+
+    <script>
+        function style1(){           
+            let mybtn=document.getElementById("mybtn");
+            mybtn.style.width="100px";
+            mybtn.style.height="50px";
+            mybtn.style.backgroundColor="green";
+        }
+        function style2(){
+            let mybtn=document.getElementById("mybtn");
+            mybtn.style.width="90px";
+            mybtn.style.height="50px";
+            mybtn.style.backgroundImage="url(https://image.kmib.co.kr/online_image/2017/1128/611311110011938257_1.jpg)";
+            mybtn.style.backgroundSize="cover";
+            mybtn.style.backgroundPosition="center";
+        }
+
+        //이미지색깔 없애기
+        function style3(){
+            let mybtn=document.getElementById("mybtn");
+            //배경색 투명하게
+            mybtn.style.backgroundColor="transparent";
+        }
+
+        
+        //이미지배경없애기
+        function style4(){
+            let mybtn=document.getElementById("mybtn");
+            //배경색 투명하게
+            mybtn.style.backgroundImage="none";
+        }
+
+        function style5(){
+            let content=document.getElementById("content");      
+            content.innerHTML="새로운 내용!!"
+        }
+    </script>
+</body>
+</html>

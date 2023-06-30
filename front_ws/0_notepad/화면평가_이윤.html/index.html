@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin: 0px;
+        }
+        header{
+            height: 100px;         
+            background-color: rgb(245, 248, 248);
+            
+            position: relative;
+        }
+
+        .title{
+            width: 300px;  
+            position: absolute;
+            left:10px;
+            top:20px;
+            
+            display: block;
+
+        }
+
+        .search-wrap{
+            border:1px solid black;
+            position: absolute;
+            right:10px;
+            bottom:20px;
+            display: flex;
+        }
+
+        input{
+            outline:0px;
+            border: 0px;
+            height: 30px;
+            width: 200px; 
+            padding-left: 5px;
+        }
+
+        .search-wrap img{
+            height:30px;
+            width:30px;  
+        }
+
+        
+
+        /* nav */
+        nav{
+            background-color: rgb(232,243,243);
+            
+            height: 40px;
+            padding:20px; 
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+
+        .login{
+            border-right: 1px solid black;
+            padding-right:10px;
+        }
+
+        .home{
+            padding-left:10px;
+            
+        }
+       
+
+       
+
+        /*  section  과정소개부분 */
+
+        section{
+            height: 600px;      
+            margin-top:50px;
+            
+            display: flex; 
+            
+        }
+
+        ul{
+            width:1000px;
+            height: 300px;
+            margin: 0 auto;
+            display: flex;
+            list-style: none;  
+        }
+
+      
+        ul li{
+            width: 300px;
+            padding:20px;
+            border: 0.5px solid rgb(255, 241, 241);
+            text-align: center;
+            border: 1px solid black;
+            position: relative;
+            
+           
+            
+        }
+
+        ul li img{
+            width: 200px;
+            height: 220px;
+            
+        }
+
+       
+
+        .box{
+            width: 130px;
+            padding:10px;
+            color: red;
+            border-radius:10px 10px 0px 0px;
+            background-color: beige;
+            font-weight: bold;
+            border:1px solid black;
+            top:-3px;
+            right:5px;
+            position: absolute;
+        }
+
+        
+
+
+        /* footer*/
+        footer{
+            
+            padding: 20px;
+            background-color: rgb(233,239,239);
+            display: flex;
+            align-items: center;
+            
+        }
+        footer div{
+            
+            width: 33%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="./logo.png">
+        </div>
+
+        <div class="search-wrap">
+            <input type="text">
+            <img src="./검색.png">           
+        </div>
+    </header>
+
+    <nav>
+        <div class="login">로그인</div>
+        <div class="home">홈으로</div>
+    </nav>
+
+    <section>
+          
+        <ul>
+            <li>
+                <div class="box">bigdata</div>
+                <img src="./img01.png">
+                <p>프로젝트기반 빅데이터 분석과정</p>
+        
+            </li>
+            
+            <li>
+                <div class="box">Android</div>
+                <img src="./img02.png">
+                <p>자바(JAVA)안드로이드 개발자 양성과정</p>
+            </li>
+            <li>
+                <div class="box">Front</div>
+                <img src="./img02.png">
+                <p>자바(JAVA)안드로이드 개발자 양성과정</p>
+        
+            </li>
+            
+            
+        </ul>       
+    </section>
+
+    <footer>
+        <div class="footer1">
+            <img src="./footer_acorn.png">
+        </div>
+        <div class="footer2">
+            에이콘ACADEMY(홍대)
+        </div>
+        <div class="footer3">
+            COPYRIGHT(C) HBILAB ALL RIGHTS RESERVED.
+        </div>
+    </footer> 
+
+   
+
+
+</body>
+</html>

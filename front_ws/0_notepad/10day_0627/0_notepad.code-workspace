@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../hello4.html"
+		},
+		{
+			"path": "../../project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "0_notepad"
+	}
+}

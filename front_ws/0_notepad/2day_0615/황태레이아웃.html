@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .wrap{
+            width: 500px;
+            padding: 10px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+        .img-wrap{
+            width: 350px;
+            height: 350px;
+            border: 1px solid black;
+            margin: 0 auto;
+            background-image: url(./img_MKH200205001_0.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .goods-info{
+            width: 400px;
+            margin: 0 auto;
+        }
+        .order-info{
+            width: 400px;
+            margin: 0 auto;
+            
+        }
+        input{
+            width: 97%;
+            height: 30px;
+            margin-top: 5px;
+        }
+        button{
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+            border: 0px;
+            background-color: skyblue;
+            margin-top: 10px;
+        }
+        select{
+            width: 100%;
+            height: 30px;
+            margin: 0 auto;
+        }
+        p{
+            margin-bottom: 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+         <!-- 전체영역-->
+         <div class="wrap">
+
+         <!-- 이미지영역-->
+         <div class="img-wrap"></div>
+
+         <!-- 상품정보영역-->
+         <div class="goods-info">
+            <h1>대관령 황태</h1>
+            <p>겨울 내내 녹았다 얼었다를 반복한 맛 좋은 대관령 황태입니다</p>
+            <p>가격 : 30000원/10마리</p>
+         </div>
+
+
+         <!-- 주문정보 영역-->
+         <div class="order-info">
+            <p>--주문내역--</p>
+            <p>주문자이름</p>
+            <input type="text"> 
+            <p>수량</p>
+            <select>
+                <option>수량을 선택하세요</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <p>주문금액</p>
+            <input type="text">
+            <p>전화번호</p>
+            <input type="text">
+            <button>order</button>
+         </div>
+    </div>
+
+</body>
+</html>

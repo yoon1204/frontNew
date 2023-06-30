@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //2. 1번  3번 하기  2번  점수가 음수가 입력되기 전까지 반복하기//
+
+  while(true){       
+    let score=prompt("점수를 입력하세요");    
+    let grade;                               
+      if(score>0){
+         if(score>=90){
+              grade="A";
+         }else if(score>=80){
+              grade="B";
+         }else{
+              grade="F";
+         }
+              alert(grade);
+         }else{
+              alert("종료");
+              break;
+         }                 
+   }      
+</script>
+
+</body>
+</html>

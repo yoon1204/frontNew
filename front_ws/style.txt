@@ -1,0 +1,12 @@
+<style>
+  input:focus{
+      outline: 1px solid red;
+  }
+</style>
+
+
+<input type="text">
+
+
+
+

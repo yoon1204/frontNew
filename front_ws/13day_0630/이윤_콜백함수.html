@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function start(f){
+            alert("어떻게뿌셔뿌셔");
+            f();
+        }
+
+        function crump(){
+            alert("크럼프뿌셔");
+        }
+
+        function wave(){
+            alert("웨이브뿌셔");
+        }
+
+        start(crump);
+        start(wave);
+
+        function snack(){
+            alert("니킥뿌셔");
+
+        }
+
+        setTimeout(function(){
+            alert("팝핀뿌셔");
+        },1000);
+
+        setTimeout( ()=> alert("온몸으로뿌셔뿌셔"),2000);
+    </script>
+</body>
+</html>
